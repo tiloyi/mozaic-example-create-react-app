@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <div class="container">
+          <button type="button" class="mc-button">
+            <span class="mc-button__label">Ceci est un bouton Mozaic!</span>
+          </button>
+        </div>
       </header>
     </div>
   );

@@ -1,0 +1,9 @@
+$local-config: (
+  font-path: "~@mozaic-ds/web-fonts/",
+);
+
+@import "~@mozaic-ds/styles/settings-tools/_all-settings";
+
+@include import-font-families();
+
+@import "~@mozaic-ds/styles/components/_c.button";
