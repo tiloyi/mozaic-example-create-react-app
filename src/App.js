@@ -20,7 +20,7 @@ function App() {
         </a>
         <div class="container">
           <button type="button" class="mc-button">
-            <span class="mc-button__label">Ceci est un bouton Mozaic!</span>
+            <span class="mc-button__label">это кнопка</span>
           </button>
         </div>
       </header>
